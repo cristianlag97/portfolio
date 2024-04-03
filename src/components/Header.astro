@@ -1,0 +1,57 @@
+---
+import { Image } from "astro:assets";
+import { basics } from "@info";
+import GitHub from "@/components/icons/github.astro";
+import LinkedIn from "@/components/icons/linkedin.astro";
+import WhatsApp from "@/components/icons/whatsapp.astro";
+
+const { personalInformation, profiles } = basics;
+const { name, image, hey } = personalInformation;
+
+const SOCIAL_ICONS: Record<string, string | any> = {
+  GitHub,
+  LinkedIn,
+  WhatsApp,
+};
+---
+
+<section class="flex flex-col justify-center items-center w-full h-screen">
+  <figure class="mx-auto max-w-[150px]">
+    <Image
+      class="aspect-square overflow-hidden rounded-full object-cover shadow-2xl"
+      src={image}
+      alt={name}
+      inferSize={true}
+      loading="eager"
+    />
+  </figure>
+
+  <div class="flex gap-8 my-7">
+    {
+      profiles.map((profile) => {
+        const Icon = SOCIAL_ICONS[profile.network];
+
+        return (
+          <a
+            class="border border-spacing-2 rounded-lg p-2 border-gray-500 hover:bg-gray-500/15 animated duration-300"
+            href={profile.url}
+            title={`Visitar el perfil de ${name} (${profile.username}) en ${profile.network}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon />
+          </a>
+        );
+      })
+    }
+  </div>
+  <div class="text-pretty mt-12 text-center sm:px-4 lg:w-[700px]">
+    <p class="text-black font-semibold text-5xl">{hey} {name}</p>
+  </div>
+</section>
+<style>
+  .shading {
+    mask-image: linear-gradient(black 80%, transparent);
+    /* filter: drop-shadow(0 0 10px rgba(0, 0, 0.8)); */
+  }
+</style>

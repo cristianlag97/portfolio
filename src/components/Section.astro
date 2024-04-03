@@ -1,0 +1,13 @@
+---
+interface Props {
+  title?: string;
+  class?: string;
+  id?: string;
+}
+const { title, class: className = "", id } = Astro.props;
+---
+
+<section class={`group/section py-8 ${className}`} id={id}>
+  {title && <h3>{title}</h3>}
+  <slot />
+</section>

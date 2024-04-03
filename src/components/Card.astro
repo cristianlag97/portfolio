@@ -1,0 +1,41 @@
+---
+import { Image } from "astro:assets";
+import imageGif from "public/images/flex.gif";
+import localImage from "public/images/flex.gif";
+
+interface Props {
+  name: string;
+  position: string;
+  startDate: string;
+  endDate: string;
+  summary: string;
+}
+
+const { name, position, startDate, endDate, summary } = Astro.props;
+---
+
+<div
+  class="border border-spacing-2 border-gray-400 hover:shadow-lg mt-4 rounded-xl p-4 animated duration-300"
+>
+  <div class="mb-2 flex gap-7 items-center">
+    <h2 class="flex gap-4">
+      {name}
+      <Image
+        loading="eager"
+        src={imageGif}
+        alt="Image"
+        width="20"
+        height="20"
+      />
+    </h2>
+    <p>{startDate} - {endDate}</p>
+  </div>
+  <hr />
+  <div class="flex items-center flex-row mt-2">
+    <Image loading="eager" src={imageGif} alt="Image" width="20" height="20" />
+    <p class="ml-4">{position}</p>
+  </div>
+  <p class="mt-2">
+    {summary}
+  </p>
+</div>

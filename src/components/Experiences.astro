@@ -1,0 +1,25 @@
+---
+import { basics } from "@info";
+import Card from "./Card.astro";
+
+const { works } = basics;
+---
+
+<section class="">
+  <div class="sm:max-w-sm sm:px-4 lg:max-w-5xl lg:w-[700px] px-4">
+    <p class="text-2xl">Experiencia</p>
+    {
+      works.map(({ name, position, startDate, endDate, summary }) => {
+        return (
+          <Card
+            name={name}
+            position={position}
+            startDate={startDate}
+            endDate={endDate}
+            summary={summary}
+          />
+        );
+      })
+    }
+  </div>
+</section>

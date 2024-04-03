@@ -1,0 +1,172 @@
+{
+  "basics": {
+    "personalInformation": {
+      "hey": "Hey, soy ",
+      
+      "name": "Cristian David Laguna Aldana",
+      "image": "https://avatars.githubusercontent.com/u/40036589?v=4",
+      "email": "cristiandavidlaguna.97@gmail.com",
+      "phone": "+57 3227662228"
+    },
+    "portfolio": {
+      "title": "Sobre mi",
+      "name": "Cristian Laguna",
+      "summary": "Soy un desarrollador Frontend con más de 4 años de experiencia, altamente capacitado y apasionado por crear soluciones de software de última generación. Disfruto trabajar en equipo para abordar desafíos complejos y aprovechar al máximo las tecnologías más recientes."
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Cristian Laguna",
+        "url": "https://www.linkedin.com/in/cristian-laguna-278b11205/"
+      },
+      {
+        "network": "GitHub",
+        "username": "cristianlag97",
+        "url": "https://github.com/cristianlag97"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "Cristian Laguna",
+        "url": "https://api.whatsapp.com/send/?phone=%2B573227662228&text&type=phone_number&app_absent=0"
+      }
+    ],
+    "works": [
+      {
+        "name": "Choppi",
+        "position": "SSr. Frontend engineer Flutter",
+        "startDate": "05/09/2023",
+        "endDate": "Actualidad",
+        "summary": "Soy desarrollador Flutter responsable del desarrollo y soporte de las aplicaciones de Choppi (servicio de delivery) en Venezuela. Además, como desarrollador Next.js, manejo el backOffice de la empresa. Este incluye un dashboard para usuarios corporativos, con secciones específicas para usuarios, tiendas, choppers, entre otros."
+      },
+      {
+        "name": "Tyba",
+        "position": "Frontend engineer Flutter",
+        "startDate": "08/11/2022",
+        "endDate": "10/08/2023",
+        "summary": "Como Frontend Engineer especializado en Flutter para móvil y web, formaba parte de un equipo de Squads de inversiones. Mi enfoque estaba en el mercado peruano, contribuyendo al área de inversiones en la Bolsa de Nueva York. También tuve roles secundarios en Chile y Colombia, trabajando en el mismo ámbito de inversión en la Bolsa de Nueva York, siempre utilizando Flutter para desarrollo móvil y web."
+      },
+      {
+        "name": "CCI Pay SAS (Cajero)",
+        "position": "Frontend engineer Flutter",
+        "startDate": "03/08/2021",
+        "endDate": "04/11/2022",
+        "summary": "Como desarrollador full stack con experiencia en Java (Spring Boot), React (Next.js), Dart (Flutter) y PostgreSQL, contribuí a la nueva versión de la aplicación Cajero. Implementé nuevas funcionalidades como métodos de pago, generación de QR, y una calculadora interna. En la plataforma web, integré nuevas visualizaciones de datos para uso interno de la empresa y solucioné bugs tanto en la aplicación móvil como en la web. Además, con Spring Boot, creé endpoints para la aplicación móvil, incluyendo la asignación de QR a usuarios y la creación de usuarios asociados a QR."
+      },
+      {
+        "name": "Distribuciones Aldana",
+        "position": "ingeniero de sistemas y encargado de IT de la empresa",
+        "startDate": "10/12/2020",
+        "endDate": "31/07/2021",
+        "summary": "Como desarrollador web con experiencia en C# y Vue.js, así como en PLSQL, creé una plataforma para la distribuidora actualmente alojada en el servidor local de la empresa (Windows Server 2012). Esta plataforma permite a los operadores de la bodega buscar productos y su ubicación, gestionar el inventario empresarial y aplicar filtros según la sucursal. Además, proporcioné mantenimiento a los equipos informáticos, impresoras, cámaras y servidores de la empresa."
+      },
+      {
+        "name": "Expansión TI S.A.S",
+        "position": "Desarrollador Full Stack",
+        "startDate": "07/09/2020",
+        "endDate": "20/11/2020",
+        "summary": "Como desarrollador web con experiencia en C# y Vue.js, así como en PLSQL, creé una plataforma para la distribuidora actualmente alojada en el servidor local de la empresa (Windows Server 2012). Esta plataforma permite a los operadores de la bodega buscar productos y su ubicación, gestionar el inventario empresarial y aplicar filtros según la sucursal. Además, proporcioné mantenimiento a los equipos informáticos, impresoras, cámaras y servidores de la empresa."
+      },
+      {
+        "name": "Distribuciones Aldana",
+        "position": "Practicante",
+        "startDate": "18/12/2019",
+        "endDate": "-18/07/2020",
+        "summary": "Durante mi periodo como practicante, asistí al encargado del área de TI en la empresa. Participé en la planificación e implementación de un sistema de inventario utilizando C#. Se importaron datos desde una base de datos PLSQL ya existente en el servidor, facilitando así las operaciones anuales de inventario para la empresa."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "icon": "react",
+        "color": "61DAFB"
+      },
+      {
+        "name": "NextJS",
+        "icon": "nextdotjs",
+        "color": "000000"
+      },
+      {
+        "name": "Astro",
+        "icon": "astro",
+        "color": "BC52EE"
+      },
+      {
+        "name": "TailwindCSS",
+        "icon": "tailwindcss",
+        "color": "06B6D4"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript",
+        "color": "3178C6"
+      },
+      {
+        "name": "NodeJS",
+        "icon": "nodedotjs",
+        "color": "339933"
+      },
+      {
+        "name": "Git",
+        "icon": "git",
+        "color": "F05032"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "color": "181717"
+      },
+      {
+        "name": "HTML5",
+        "icon": "html5",
+        "color": "E34F26"
+      },
+      {
+        "name": "CSS3",
+        "icon": "css3",
+        "color": "1572B6"
+      },
+      {
+        "name": "Sass",
+        "icon": "sass",
+        "color": "CC6699"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap",
+        "color": "7952B3"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript",
+        "color": "F7DF1E"
+      },
+      {
+        "name": "Dart",
+        "icon": "dart",
+        "color": "0175C2"
+      },
+      {
+        "name": "Flutter",
+        "icon": "flutter",
+        "color": "0175C2"
+      },
+      {
+        "name": "Mongo_DB",
+        "icon": "mongodb",
+        "color": "47A248"
+      }
+    ],
+    "languages": [
+      {
+        "flag": "ES",
+        "language": "Español",
+        "fluency": "Hablante nativo"
+      },
+      {
+        "flag": "US",
+        "language": "Ingles",
+        "fluency": "A2"
+      }
+    ]
+  }
+}
