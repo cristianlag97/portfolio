@@ -1,14 +1,10 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "/home/cristian/Escritorio/cristian/front/astro/portfolio",
+    "baseUrl": ".",
     "paths": {
-      "@info": [
-        "./info.json"
-      ],
-      "@/*": [
-        "./src/*"
-      ]
+      "@info": ["./info.json"],
+      "@/*": ["./src/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
