@@ -2,22 +2,25 @@
 import "@fontsource-variable/onest";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
+import { basics } from "@info";
 interface Props {
   title: string;
 }
 
 const { title } = Astro.props;
+const { portfolio } = basics;
+const { name, summary } = portfolio;
 ---
 
 <!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{title} - {name}</title>
   </head>
   <body>
     <Navbar />

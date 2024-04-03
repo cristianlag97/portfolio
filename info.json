@@ -70,7 +70,7 @@
         "name": "Distribuciones Aldana",
         "position": "Practicante",
         "startDate": "18/12/2019",
-        "endDate": "-18/07/2020",
+        "endDate": "18/07/2020",
         "summary": "Durante mi periodo como practicante, asistí al encargado del área de TI en la empresa. Participé en la planificación e implementación de un sistema de inventario utilizando C#. Se importaron datos desde una base de datos PLSQL ya existente en el servidor, facilitando así las operaciones anuales de inventario para la empresa."
       }
     ],
