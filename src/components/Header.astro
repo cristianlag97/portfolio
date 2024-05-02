@@ -4,7 +4,8 @@ import { basics } from "@info";
 import GitHub from "@/components/icons/github.astro";
 import LinkedIn from "@/components/icons/linkedin.astro";
 import WhatsApp from "@/components/icons/whatsapp.astro";
-import HV from "public/HV_Cristian_Laguna.pdf";
+// import HV from "public/HV_Cristian_Laguna.pdf";
+import HV from "public/Hoja de vida cristian.pdf";
 
 const { personalInformation, profiles } = basics;
 const { name, image, hey } = personalInformation;
@@ -50,7 +51,7 @@ const SOCIAL_ICONS: Record<string, string | any> = {
     <a
       class="bg-white text-black px-4 py-2 rounded-lg hover:bg-black hover:text-white animated duration-300 border border-gray-500"
       href={HV}
-      download="HV_Cristian_Laguna.pdf"
+      download="Hoja de vida cristian.pdf"
     >
       <button>Descargar Curriculum</button>
     </a>

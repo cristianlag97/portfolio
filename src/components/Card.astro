@@ -17,10 +17,9 @@ const { name, position, startDate, endDate, summary } = Astro.props;
 <div
   class="border border-spacing-2 border-gray-400 hover:shadow-lg mt-4 rounded-xl p-4 animated duration-300"
 >
-  <div class="mb-2 flex gap-7 items-center">
+  <div class="mb-2 flex gap-7 items-center justify-between">
     <h2 class="flex gap-4">
       {name}
-      <ArrowFowar />
     </h2>
     <p>{startDate} - {endDate}</p>
   </div>

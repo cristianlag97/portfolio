@@ -2,7 +2,6 @@
   "basics": {
     "personalInformation": {
       "hey": "Hey, soy ",
-      
       "name": "Cristian David Laguna Aldana",
       "image": "https://avatars.githubusercontent.com/u/40036589?v=4",
       "email": "cristiandavidlaguna.97@gmail.com",
@@ -64,7 +63,7 @@
         "position": "Desarrollador Full Stack",
         "startDate": "07/09/2020",
         "endDate": "20/11/2020",
-        "summary": "Como desarrollador web con experiencia en C# y Vue.js, así como en PLSQL, creé una plataforma para la distribuidora actualmente alojada en el servidor local de la empresa (Windows Server 2012). Esta plataforma permite a los operadores de la bodega buscar productos y su ubicación, gestionar el inventario empresarial y aplicar filtros según la sucursal. Además, proporcioné mantenimiento a los equipos informáticos, impresoras, cámaras y servidores de la empresa."
+        "summary": "Contribuí en la creación de una plataforma web para la gestión de envíos a través de servientrega con python/Django para el backend y vue/nuxt para el frontend"
       },
       {
         "name": "Distribuciones Aldana",
