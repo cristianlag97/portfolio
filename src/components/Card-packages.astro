@@ -1,0 +1,31 @@
+---
+
+interface Props {
+  name: String;
+  language: String;
+  framework: String;
+  url: String;
+}
+
+const { name,language, framework, url } = Astro.props;
+---
+
+    <a
+      href={url.toString()}
+      target="_blank"
+      title={`Visitar el paquete ${name}`}
+    >
+      <div class="border border-spacing-2 border-gray-400 hover:shadow-lg mt-4 rounded-xl p-4 animated duration-300 w-[200px]">
+        <div class="mb-2 flex gap-7 items-center justify-between">
+          <h2 class="flex gap-4">
+            {name}
+          </h2>
+        </div>
+        <hr />
+        <div class="flex items-center flex-row mt-2">
+          <p>{language} / {framework}</p>
+        </div>
+        <p class="mt-2">
+        </p>
+      </div>
+    </a>

@@ -29,6 +29,14 @@
         "url": "https://api.whatsapp.com/send/?phone=%2B573227662228&text&type=phone_number&app_absent=0"
       }
     ],
+    "packages": [
+      {
+        "name": "toastify_flutter",
+        "language": "Dart",
+        "framework": "Flutter",
+        "url": "https://pub.dev/packages/toastify_flutter"
+      }
+    ],
     "works": [
       {
         "name": "Choppi",

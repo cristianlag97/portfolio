@@ -4,12 +4,15 @@ import Header from "../components/Header.astro";
 import Experiences from "../components/Experiences.astro";
 import AboutMe from "@/components/AboutMe.astro";
 import SectionContainer from "@/components/SectionContainer.astro";
-import Contact from "@/components/Contact";
+import Packages from "@/components/Packages.astro";
 ---
 
 <Layout title="Portafolio">
   <SectionContainer id="home">
     <Header />
+  </SectionContainer>
+  <SectionContainer>
+    <Packages />
   </SectionContainer>
   <SectionContainer id="experience">
     <Experiences />
@@ -17,7 +20,4 @@ import Contact from "@/components/Contact";
   <SectionContainer id="about">
     <AboutMe />
   </SectionContainer>
-  <!-- <SectionContainer id="contact">
-    <Contact transition:persist client:visible />
-  </SectionContainer> -->
 </Layout>

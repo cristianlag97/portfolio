@@ -1,0 +1,26 @@
+---
+import { basics } from "@info";
+import CardPackages from "./Card-packages.astro";
+
+const { packages } = basics;
+---
+
+
+
+<div class="lg:max-w-5xl lg:w-[700px] px-4 mt-24">
+  <p class="text-2xl ">Mis paquetes</p>
+  <div class="flex flex-wrap gap-4">
+    {
+      packages.map(({ name,language, framework, url }) => {
+        return (
+          <CardPackages
+            name={name}
+            language={language}
+            framework={framework}
+            url={url}
+          />
+        );
+      })
+    }
+  </div>
+</div>
