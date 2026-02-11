@@ -39,17 +39,10 @@
     ],
     "works": [
       {
-        "name": "Cyttek",
-        "position": "Sr. Frontend engineer Flutter",
-        "startDate": "21/04/2025",
-        "endDate": "Actualidad",
-        "summary": "Trabajo como Sr. Frontend Engineer Flutter participando en el desarrollo de aplicaciones móviles multiplataforma. He contribuido en dos proyectos principales: MasCapital, una aplicación móvil para un banco peruano enfocada en servicios financieros, la cual fue entregada exitosamente a producción; y una aplicación orientada a la automatización y soporte de procesos sobre plataformas de transporte como Uber, DiDi e InDrive. Mi experiencia incluye implementación de nuevas funcionalidades, integraciones, corrección de bugs y mejoras de rendimiento utilizando Flutter para plataformas móviles."
-      },
-      {
         "name": "Choppi",
         "position": "SSr. Frontend engineer Flutter",
         "startDate": "05/09/2023",
-        "endDate": "2025/07/03",
+        "endDate": "Actualidad",
         "summary": "Soy desarrollador Flutter responsable del desarrollo y soporte de las aplicaciones de Choppi (servicio de delivery) en Venezuela. Además, como desarrollador Next.js, manejo el backOffice de la empresa. Este incluye un dashboard para usuarios corporativos, con secciones específicas para usuarios, tiendas, choppers, entre otros."
       },
       {
