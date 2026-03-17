@@ -2,12 +2,33 @@
 import { basics } from "@info";
 
 const { portfolio } = basics;
-const { title, summary } = portfolio;
+const { title, summary, careerStart } = portfolio;
+
+function getYearsExperience(startDate: string) {
+  const start = new Date(startDate);
+  const now = new Date();
+
+  let years = now.getFullYear() - start.getFullYear();
+
+  const m = now.getMonth() - start.getMonth();
+  if (m < 0 || (m === 0 && now.getDate() < start.getDate())) {
+    years--;
+  }
+
+  return years;
+}
+
+const yearsExperience = getYearsExperience(careerStart);
+
+const summaryWithYears = summary.replace(
+  "{{yearsExperience}}",
+  yearsExperience.toString()
+);
 ---
 
 <section class="flex justify-center">
   <div class="w-[700px] flex flex-col my-12 px-4">
     <h2 class="text-2xl mb-4">{title}</h2>
-    <p class="text-pretty">{summary}</p>
+    <p class="text-pretty">{summaryWithYears}</p>
   </div>
 </section>
