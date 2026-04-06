@@ -57,35 +57,35 @@
         "name": "Tyba",
         "position": "Frontend engineer Flutter",
         "startDate": "11/2022",
-        "endDate": "10/08/2023",
+        "endDate": "08/2023",
         "summary": "Como Frontend Engineer especializado en Flutter para móvil y web, formaba parte de un equipo de Squads de inversiones. Mi enfoque estaba en el mercado peruano, contribuyendo al área de inversiones en la Bolsa de Nueva York. También tuve roles secundarios en Chile y Colombia, trabajando en el mismo ámbito de inversión en la Bolsa de Nueva York, siempre utilizando Flutter para desarrollo móvil y web."
       },
       {
         "name": "CCI Pay SAS (Cajero)",
         "position": "Frontend engineer Flutter",
         "startDate": "08/2021",
-        "endDate": "04/11/2022",
+        "endDate": "11/2022",
         "summary": "Como desarrollador full stack con experiencia en Java (Spring Boot), React (Next.js), Dart (Flutter) y PostgreSQL, contribuí a la nueva versión de la aplicación Cajero. Implementé nuevas funcionalidades como métodos de pago, generación de QR, y una calculadora interna. En la plataforma web, integré nuevas visualizaciones de datos para uso interno de la empresa y solucioné bugs tanto en la aplicación móvil como en la web. Además, con Spring Boot, creé endpoints para la aplicación móvil, incluyendo la asignación de QR a usuarios y la creación de usuarios asociados a QR."
       },
       {
         "name": "Distribuciones Aldana",
         "position": "ingeniero de sistemas y encargado de IT de la empresa",
         "startDate": "12/2020",
-        "endDate": "31/07/2021",
+        "endDate": "07/2021",
         "summary": "Como desarrollador web con experiencia en C# y Vue.js, así como en PLSQL, creé una plataforma para la distribuidora actualmente alojada en el servidor local de la empresa (Windows Server 2012). Esta plataforma permite a los operadores de la bodega buscar productos y su ubicación, gestionar el inventario empresarial y aplicar filtros según la sucursal. Además, proporcioné mantenimiento a los equipos informáticos, impresoras, cámaras y servidores de la empresa."
       },
       {
         "name": "Expansión TI S.A.S",
         "position": "Desarrollador Full Stack",
         "startDate": "09/2020",
-        "endDate": "20/11/2020",
+        "endDate": "11/2020",
         "summary": "Contribuí en la creación de una plataforma web para la gestión de envíos a través de servientrega con python/Django para el backend y vue/nuxt para el frontend"
       },
       {
         "name": "Distribuciones Aldana",
         "position": "Practicante",
         "startDate": "12/2019",
-        "endDate": "18/07/2020",
+        "endDate": "07/2020",
         "summary": "Durante mi periodo como practicante, asistí al encargado del área de TI en la empresa. Participé en la planificación e implementación de un sistema de inventario utilizando C#. Se importaron datos desde una base de datos PLSQL ya existente en el servidor, facilitando así las operaciones anuales de inventario para la empresa."
       }
     ],
